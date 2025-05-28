@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathon Cannon's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <nav class="navbar">
+
+        <button class="hamburger" id="hamburger-btn" aria-label="Open Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/'"style="color: white;">Back to Top</a></button>
+            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/#portfolio'"style="color: white;">View My Work</a></button>
+            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/#contact'"style="color: white;">Contact me</a></button>
+
+        </div>
+        </nav>
+        
+    <header class ="header">
+        <h1>Jonathon Cannon</h1>
+        <p>Game Developer | Unity & Unreal Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Jonathon Cannon and I am a passionate game developer with expertise in creating immersive experiences using Unity, Unreal Engine, and modern game development tools. My goal is to bring unique worlds and mechanics to life, captivating players with innovative designs.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add more projects here -->
+    <div class="portfolio-item">
+    <h3>Caspiran Asteroids</h3>
+    <p>Classic Arcade game Asteroids with some powerups! Created to learn Lua within the LOVE2D framework.</p>
+    <div class="image-container">
+        <button class="buttons"><img src="Images/casteroids.png" data-fullsize="Images/casteroids.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+        <button class="buttons"><img src="Images/casteroids1.png" data-fullsize="Images/casteroids1.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+        <button class="buttons"><img src="Images/casteroids2.png" data-fullsize="Images/casteroids2.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+    </div>
+    <button class="download" onclick="window.location.href='https://hungrycanadian.itch.io/caspiran-asteroids'" style="color: white;" >Itch.io Link</a></button>
+<button class="info-button" data-info="Learning Lua and using Love2D to make a game was a fun but sometimes tricky experience.<br><br>Lua has a unique way of doing things, like how it uses tables for almost everything, which took some time to get used to. Love2D itself is straightforward in some ways but requires a good understanding of how it handles game loops and events to really get things working smoothly.<br><br>One of the biggest issues I ran into was the player being able to move around even after the game-over screen appeared. I realized I needed a way to pause player input during certain game states, which wasn't as simple as I expected. Another problem was with power-ups—they didn't work with the collision system I had already coded. To fix this, I had to create a new collision detection system (AABB) just for the power-ups, which made things a bit more complicated.<br><br>There were also issues with asteroids spawning. Some of them would appear outside the game area, and when that happened, they would act weirdly along the screen's edges. Fixing this meant improving the spawning logic to keep everything inside the play area. Dealing with these problems taught me a lot about debugging, testing, and thinking ahead when writing game code.">
+    More Info
+</button>
+</div>
+
+<div class="portfolio-item">
+    <h3>Vanishing Vessels of Caspira</h3>
+    <p>A point and click, text adventure through a mysterious island and its trade vessels going missing!</p>
+    <div class="image-container">
+        <button class="buttons"><img src="Images/vv1.png" data-fullsize="Images/vv1.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+        <button class="buttons"><img src="Images/vv2.png" data-fullsize="Images/vv2.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+        <button class="buttons"><img src="Images/vv3.png" data-fullsize="Images/vv3.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
+    </div>
+    <button class="info-button" data-info="Vanishing Vessels of Caspira is a point-and-click text adventure set on a mysterious island where trade ships keep disappearing. You explore different regions of the island, uncover clues, and try to solve the mystery.<br><br>The game was built using a custom engine that uses SDL and OpenGL libraries.<br><br>Some of the challenges I faced while making this game included fitting all the story text into a small screen area for each region without it feeling cramped. Getting the combat system working was also tricky, especially making sure that after a fight ended, the game would return to the correct screen so players could continue their adventure smoothly.<br><br>Another tough part was figuring out how to make text disappear when it wasn’t needed anymore, and only show the right sentences at the right time. This was hard to learn at first, but once I understood it, implementing it became straightforward.">
+    More Info
+</button>
+</div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox" class="lightbox">
+    <img id="lightbox-img" src="" alt="Zoomed Image">
+    <div class="lightbox-content">
+        <span class="close">&times;</span>
+    </div>
+</div>
+</section>
+
+
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Unity, Unreal Engine</li>
+            <li>C#, C++, Javascript, Lua</li>
+            <li>LOVE2D, SDL, OpenGL</li>
+            <li>Game Design & Prototyping</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
+        <div class="contact-links">
+            <a href="mailto:Davis_269@msn.com">Email</a>
+            <a href="https://www.linkedin.com/in/jonathon-cannon/">LinkedIn</a>
+            <a href="https://github.com/HungryCanadian">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jonathon Cannon. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
