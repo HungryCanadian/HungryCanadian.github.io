@@ -8,7 +8,7 @@
     
 
 </head>
-<body>
+<body id="top">
     <nav class="navbar">
 
         <button class="hamburger" id="hamburger-btn" aria-label="Open Menu">
@@ -18,9 +18,10 @@
         </button>
 
         <div class="mobile-menu" id="mobile-menu">
-            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/'"style="color: white;">Back to Top</a></button>
-            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/#portfolio'"style="color: white;">View My Work</a></button>
-            <button class="viewwork" onclick="window.location.href='https://triosdevelopers.com/~J.Cannon/#contact'"style="color: white;">Contact me</a></button>
+            <button class="viewwork" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); color: white;">Top</button>
+>Back to Top</a></button>
+            <button class="viewwork" onclick="window.location.hash='#portfolio'" style="color: white;">View My Work</button>
+            <button class="viewwork" onclick="window.location.href='#contact'"style="color: white;">Contact me</a></button>
 
         </div>
         </nav>
