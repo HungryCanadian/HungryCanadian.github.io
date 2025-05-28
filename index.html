@@ -18,10 +18,9 @@
         </button>
 
         <div class="mobile-menu" id="mobile-menu">
-            <button class="viewwork" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); color: white;">Top</button>
->Back to Top</a></button>
-            <button class="viewwork" onclick="window.location.hash='#portfolio'" style="color: white;">View My Work</button>
-            <button class="viewwork" onclick="window.location.href='#contact'"style="color: white;">Contact me</a></button>
+            <button class="viewwork" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); color: white;">Back to Top</button>
+            <button class="viewwork" onclick="document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });" style="color: white;">View My Work</button>
+            <button class="viewwork" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });"style="color: white;">Contact me</a></button>
 
         </div>
         </nav>
