@@ -14,8 +14,9 @@ if (!lightboxTextBox) {
 document.querySelectorAll('.portfolio-item button').forEach(button => {
     button.addEventListener('click', () => {
         const isInfoButton = button.classList.contains('info-button');
+        const isTHCButton = button.classList.contains('THC-button');
 
-        if (isInfoButton) {
+        if (isInfoButton || isTHCButton) {
             const infoText = button.getAttribute('data-info') || 'No additional information available.';
             lightboxImg.style.display = 'none';
             lightboxTextBox.innerHTML = infoText; 
