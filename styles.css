@@ -57,7 +57,8 @@ body {
     border: none; 
     padding: 0; 
     background: none;
-    outline: 2px solid darkred;
+    border-radius: 15px;
+    outline: 5px solid darkred;
     cursor: pointer;
 }
 
@@ -111,7 +112,8 @@ body {
 }
 
 .buttons:hover {
-    outline: 2px solid red;
+    border-radius: 15px;
+    outline: 5px solid rgb(197, 6, 6);
     outline-offset: 2px; 
 }
 /* Lightbox styles */
@@ -181,16 +183,6 @@ body {
     border: 2px solid #ff5722;
     border-radius: 8px;
 }
-
-/* Navbar */
-/*.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #444;
-    color: #fff;
-}*/
 
 .nav-links {
     list-style: none;
