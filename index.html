@@ -20,6 +20,11 @@
         <div class="mobile-menu" id="mobile-menu">
             <button class="viewwork" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" style="color: white;">Back to Top</button>
             <button class="viewwork" onclick="document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });" style="color: white;">View My Work</button>
+            <button class="viewwork" onclick="document.querySelector('#caspiran-asteroids').scrollIntoView({ behavior: 'smooth' });" style="color: white;">Caspiran Asteroids</button>
+            <button class="viewwork" onclick="document.querySelector('#vanishing-vessels').scrollIntoView({ behavior: 'smooth' });" style="color: white;">Vanishing Vessels</button>
+            <button class="viewwork" onclick="document.querySelector('#feature-creep').scrollIntoView({ behavior: 'smooth' });" style="color: white;">Feature Creep</button>
+            <button class="viewwork" onclick="document.querySelector('#teamherocoder').scrollIntoView({ behavior: 'smooth' });" style="color: white;">Algorithmic AI Behaviour</button>
+            <button class="viewwork" onclick="document.querySelector('#escape').scrollIntoView({ behavior: 'smooth' });" style="color: white;">Escape the Archipelago</button>
             <button class="viewwork" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });"style="color: white;">Contact me</a></button>
 
         </div>
@@ -42,6 +47,7 @@
         <!-- Add more projects here -->
     <div class="portfolio-item">
     <h3>Caspiran Asteroids</h3>
+    <section id="caspiran-asteroids"></section>
     <p>Classic Arcade game Asteroids with some powerups! Created to learn Lua within the LOVE2D framework.</p>
     <div class="image-container">
         <button class="buttons"><img src="Images/casteroids.png" data-fullsize="Images/casteroids.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
@@ -52,10 +58,13 @@
 <button class="info-button" data-info="Learning Lua and using Love2D to make a game was a fun but tricky experience.<br><br>Lua's table-based approach and Love2D's handling of game loops took time to get used to. One issue was the player moving after the game-over screen, which required pausing input during certain states. Another was power-ups, which needed a separate collision detection system (AABB) to work.<br><br>Asteroids occasionally spawned outside the game area, causing strange edge behavior. Fixing these problems taught me valuable lessons in debugging and planning ahead when coding games.">
     More Info
 </button>
+<button class="info-button" data-info="">
+    Interesting Facts
 </div>
 
 <div class="portfolio-item">
     <h3>Vanishing Vessels of Caspira</h3>
+    <section id="vanishing-vessels"></section>
     <p>A point and click, text adventure through a mysterious island and its trade vessels going missing!</p>
     <div class="image-container">
         <button class="buttons"><img src="Images/vv1.png" data-fullsize="Images/vv1.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
@@ -69,6 +78,7 @@
 </div>
 <div class="portfolio-item">
     <h3>Feature Creep: Mass Recall</h3>
+    <section id="feature-creep"></section>
     <p>Tower Defense style game made in 5 days in a group of 3 people to learn and utilize LOVE2D</p>
     <div class="image-container">
         <button class="buttons"><img src="Images/MassRecallMenu.png" data-fullsize="Images/MassRecallMenu.png" alt="Mass Recall" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
@@ -82,6 +92,7 @@
 </div> 
 <div class="portfolio-item">
     <h3>Team Hero Coder - Algorithmic AI</h3>
+    <section id="teamherocoder"></section>
     <p>A turn based battle game where you have to code your teams actions in C#. Creating an Algorithmic behaviour system.</p>
     <div class="image-container">
         <button class="buttons"><img src="Images/TeamHC3.png" data-fullsize="Images/TeamHC3.png" alt="Team Hero Coder" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
@@ -94,6 +105,7 @@
 </div>
 <div class="portfolio-item">
     <h3>Escape the Archipelago</h3>
+    <section id="escape"></section>
     <p>A top down, 2D Nautical shooter where you must avoid the enemy ships or sink them to survive 60 seconds. once the timer is up, get to the exit!</p>
     <div class="image-container">
         <button class="buttons"><img src="Images/ETA1.png" data-fullsize="Images/ETA1.png" alt="Escape the Archipelago" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
