@@ -46,14 +46,14 @@ body {
     color: #fff;
 }
 .header{
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(to bottom, #2c0303, #982a2a3d);
-            top: 0px;
-            left: 0;
-            width: 100%;
-            position:absolute;
-            z-index:60;
+        text-align: center;
+        padding: 50px 20px;
+        background: linear-gradient(to bottom, #2c0303, #982a2a3d);
+        top: 0px;
+        left: 0;
+        width: 100%;
+        position:absolute;
+        z-index:60;
 }
 
 .buttons {
