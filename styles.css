@@ -256,46 +256,46 @@ body {
     border-radius: 5px;
 }
 
-/* Skills Section */
-.skills ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.skillsbox, .contactbox {
+    flex: 1; 
+    background: linear-gradient(to bottom, #3a3a3a, #5a5a5a);
+    padding: 20px;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .skillsbox {
-    padding-top: 100px;
-    background: #351212;
-    padding: 1rem;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(48, 12, 12, 0.945);
-    text-align: center;
-    max-width: 600px;
-}
-
-/* Contact Section */
-.contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
+    margin-right: 10px; 
 }
 
 .contactbox {
-    margin-bottom: 1rem;
-    padding-top: 100px;
-    background: #351212;
-    padding: 1rem;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
-    text-align: left;
-    max-width: 500px;
+    margin-left: 10px; 
 }
-.contact input, .contact textarea {
-    padding: 0px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 100%;
+
+.contact-links a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background: #5a0b72;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    background: #840bf5;
 }
 
 /* Footer */
