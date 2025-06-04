@@ -239,10 +239,8 @@ body {
 }
 
 .portfolio-item {
-    margin-bottom: 1rem;
     padding-top: 100px;
     background: #351212;
-    padding: 1rem;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
     text-align: center;
