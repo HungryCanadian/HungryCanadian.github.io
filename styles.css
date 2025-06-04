@@ -239,6 +239,7 @@ body {
 }
 
 .portfolio-item {
+    padding-top: 100px;
     background: #351212;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
