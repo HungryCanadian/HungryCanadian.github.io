@@ -261,7 +261,7 @@ body {
     justify-content: space-between;
     gap: 20px; 
     max-width: 600px; 
-    margin: left auto; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
