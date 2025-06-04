@@ -264,7 +264,7 @@ body {
     gap: 1rem;
 }
 
-.skills {
+.skillsbox {
     padding-top: 100px;
     background: #351212;
     padding: 1rem;
@@ -281,7 +281,7 @@ body {
     gap: 0px;
 }
 
-.contact {
+.contactbox {
     margin-bottom: 1rem;
     padding-top: 100px;
     background: #351212;
