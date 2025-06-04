@@ -223,7 +223,7 @@ body {
 }
 /* About Section */
 .about, .portfolio, .skills, .contact {
-    padding-top: 400px;
+    padding-top: 200px;
     padding: 2rem 1rem;
     max-width: 1100px;
     margin: auto;
@@ -239,7 +239,7 @@ body {
 }
 
 .portfolio-item {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-top: 100px;
     background: #351212;
     padding: 1rem;
