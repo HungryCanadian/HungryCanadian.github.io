@@ -259,43 +259,33 @@ body {
 .skills-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px 20px;
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
 }
 
 .skillsbox, .contactbox {
     flex: 1; 
-    background: linear-gradient(to bottom, #3a3a3a, #5a5a5a);
+    background: #3a3a3a;
     padding: 20px;
-    border-radius: 15px;
-    color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.skillsbox {
-    margin-right: 10px; 
-}
-
-.contactbox {
-    margin-left: 10px; 
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(143, 11, 11, 0.3);
 }
 
 .contact-links a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    color: #ffffff;
-    background: #5a0b72;
+    color: white;
+    background-color: #730ab9a8;
+    padding: 10px 15px;
     margin: 5px 0;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
+    border-radius: 5px;
 }
 
 .contact-links a:hover {
-    background: #840bf5;
+    background-color: #8f10c2;
 }
 
 /* Footer */
