@@ -235,7 +235,6 @@ body {
     padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
 }
 
 .portfolio-item {
