@@ -221,7 +221,7 @@ body {
     margin-top: 1rem;
 }
 .contact-links a {
-    color: #830e92;
+    color: #e012fc;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -264,6 +264,16 @@ body {
     gap: 1rem;
 }
 
+.skills {
+    padding-top: 100px;
+    background: #351212;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
+    text-align: center;
+    max-width: 600px;
+}
+
 /* Contact Section */
 .contact form {
     display: flex;
@@ -271,6 +281,16 @@ body {
     gap: 0px;
 }
 
+.contact {
+    margin-bottom: 1rem;
+    padding-top: 100px;
+    background: #351212;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
+    text-align: left;
+    max-width: 500px;
+}
 .contact input, .contact textarea {
     padding: 0px;
     border: 1px solid #ddd;
