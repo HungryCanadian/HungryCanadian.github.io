@@ -260,29 +260,20 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px; 
-    max-width: 1200px; 
-    margin: 0 auto; 
+    max-width: 600px; 
+    margin: left auto; 
     padding: 20px;
 }
 
 .skillsbox, .contactbox {
     flex: 1; 
-    background: #3a3a3a;
+    background: #610f0f;
     padding: 20px;
     border-radius: 10px;
     color: white;
     box-shadow: 0 4px 8px rgba(143, 11, 11, 0.3);
 }
 
-.contact-links a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #730ab9a8;
-    padding: 10px 15px;
-    margin: 5px 0;
-    border-radius: 5px;
-}
 
 .contact-links a:hover {
     background-color: #8f10c2;
