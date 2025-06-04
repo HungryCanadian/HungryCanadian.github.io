@@ -247,7 +247,7 @@ body {
     background: #351212;
     padding: 1rem;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
+    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.356);
     text-align: center;
 }
 
@@ -269,7 +269,7 @@ body {
     background: #351212;
     padding: 1rem;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(129, 24, 24, 0.70);
+    box-shadow: 0 4px 8px rgba(48, 12, 12, 0.945);
     text-align: center;
     max-width: 600px;
 }
