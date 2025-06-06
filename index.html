@@ -52,7 +52,7 @@
         <button class="buttons"><img src="Images/casteroids1.png" data-fullsize="Images/casteroids1.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
         <button class="buttons"><img src="Images/casteroids2.png" data-fullsize="Images/casteroids2.png" alt="Caspiran Asteroids" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
     </div>
-    <button class="download" onclick="window.location.href='https://hungrycanadian.itch.io/caspiran-asteroids'" style="color: white;" >Itch.io Link</a></button>
+    <button class="download" onclick="window.open('https://hungrycanadian.itch.io/caspiran-asteroids', '_blank')" style="color: white;">Itch.io Link</button>
 <button class="info-button" data-info="Learning Lua and using Love2D to make a game was a fun but tricky experience.<br><br>Lua's table-based approach and Love2D's handling of game loops took time to get used to. One issue was the player moving after the game-over screen, which required pausing input during certain states. Another was power-ups, which needed a separate collision detection system (AABB) to work.<br><br>Asteroids occasionally spawned outside the game area, causing strange edge behavior. Fixing these problems taught me valuable lessons in debugging and planning ahead when coding games.">
     More Info
 </button>
@@ -69,7 +69,7 @@
         <button class="buttons"><img src="Images/vv2.png" data-fullsize="Images/vv2.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
         <button class="buttons"><img src="Images/vv3.png" data-fullsize="Images/vv3.png" alt="Vanishing Vessels of Caspira" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
     </div>
-    <button class="download" onclick="window.location.href='https://hungrycanadian.itch.io/vanishing-vessels-of-caspira'" style="color: white;" >Itch.io Link</a></button>
+<button class="download" onclick="window.open('https://hungrycanadian.itch.io/vanishing-vessels-of-caspira', '_blank')" style="color: white;">Itch.io Link</button>
     <button class="info-button" data-info="Vanishing Vessels of Caspira is a point-and-click text adventure set on a mysterious island where trade ships keep disappearing. You explore different regions of the island, uncover clues, and try to solve the mystery.<br><br>The game was built using a custom engine that uses SDL and OpenGL libraries.<br><br>Some of the challenges I faced while making this game included fitting all the story text into a small screen area for each region without it feeling cramped. Getting the combat system working was also tricky, especially making sure that after a fight ended, the game would return to the correct screen so players could continue their adventure smoothly.<br><br>Another tough part was figuring out how to make text disappear when it wasn’t needed anymore, and only show the right sentences at the right time. This was hard to learn at first, but once I understood it, implementing it became straightforward.">
     More Info
 </button>
@@ -87,7 +87,7 @@
         <button class="buttons"><img src="Images/MassRecallStore.png" data-fullsize="Images/MassRecallStore.png" alt="Mass Recall" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
         <button class="buttons"><img src="Images/MassRecallGameplay.png" data-fullsize="Images/MassRecallGameplay.png" alt="Mass Recall" class="zoomable-image" style="width: 250px; cursor: pointer;"></button>
     </div>
-    <button class="download" onclick="window.location.href='https://hungrycanadian.itch.io/feature-creep-mass-recall'" style="color: white;" >Itch.io Link</a></button>
+<button class="download" onclick="window.open('https://hungrycanadian.itch.io/feature-creep-mass-recall', '_blank')" style="color: white;">Itch.io Link</button>
     <button class="info-button" data-info="Feature Creep: Mass Recall is a Tower Defense-style game made in 5 days during a college-hosted GameJam. None of the team members had prior experience with LOVE2D, which added to the challenge of designing and implementing systems from scratch. The GameJam grouped students into teams of three, requiring us to collaborate effectively despite being unfamiliar with each other.<br><br>One of the biggest personal challenges was learning to delegate and communicate, as I was used to solo development. Technically, the most difficult aspect was getting enemies to follow a designated path. While the path was visually displayed and enemies spawned at the correct starting point, they wouldn’t move due to a bug that kept resetting the pathing code to the first waypoint.<br><br>Debugging and fixing this issue taught me valuable lessons in persistence and problem-solving. Although the game wasn’t perfect, we finished it just in time for submission and were proud of what we achieved given the time constraints and learning curve of LOVE2D.">
         More Info
     </button>
@@ -106,7 +106,7 @@
     <button class="info-button" data-info="Learning C# to create an algorithmic AI for Team Hero Coder was both challenging and rewarding. Our team strategy had the Wizard cast Poison Nova to debilitate the enemy, followed by the Monk using Flurry of Blows to capitalize on the poison, and the Cleric handling healing, reviving, and buff removal. The Wizard would then unleash Meteor to deal massive damage, aiming to quickly overpower the enemy.<br><br>Writing the AI required careful logic, with nested if-statements prioritizing actions dynamically based on conditions like mana costs and status effects. One tricky issue involved iterating over enemy status ailments; when none were present, it caused unexpected behavior. Debugging this required rethinking the code to handle edge cases properly.<br><br>Despite the challenges, the project taught me valuable lessons in persistence, error handling, and effective algorithm design. Watching the AI execute the strategy flawlessly was immensely satisfying, making the effort worthwhile.">
         More Info
     </button>
-    <button class="download" onclick="window.location.href='https://github.com/HungryCanadian/TeamHeroCoder-assignment2/blob/main/Program.cs'" style="color: white;" >GitHub Link</a></button>
+<button class="download" onclick="window.open('https://github.com/HungryCanadian/TeamHeroCoder-assignment2/blob/main/Program.cs', '_blank')" style="color: white;">GitHub Link</button>
 </div>
 <section id="escape"></section>
 <div class="portfolio-item">
@@ -123,11 +123,12 @@
 </div>
 
     <!-- Lightbox container -->
-    <div id="lightbox" class="lightbox">
-    <img id="lightbox-img" src="" alt="Zoomed Image">
-    <div class="lightbox-content">
-        <span class="close">&times;</span>
-    </div>
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+    <button class="close">&times;</button>
+    <img id="lightbox-img" src="" alt="Expanded image">
+    <div class="text-box"></div>
+  </div>
 </div>
 </section>
 
@@ -152,8 +153,8 @@
         <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
         <div class="contact-links">
             <a href="mailto:Davis_269@msn.com">Email</a>
-            <a href="https://www.linkedin.com/in/jonathon-cannon/">LinkedIn</a>
-            <a href="https://github.com/HungryCanadian">GitHub</a>
+            <a href="https://www.linkedin.com/in/jonathon-cannon/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/HungryCanadian" target="_blank">GitHub</a>
         </div>
     </section>
     </div>

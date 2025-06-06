@@ -11,6 +11,17 @@ if (!lightboxTextBox) {
     lightbox.querySelector('.lightbox-content').appendChild(lightboxTextBox);
 }
 
+function openLightbox() {
+    lightbox.style.display = 'flex';
+    document.body.classList.add('no-scroll'); // Disable background scrolling
+}
+
+function closeLightbox() {
+    lightbox.style.display = 'none';
+    document.body.classList.remove('no-scroll'); // Re-enable background scrolling
+}
+
+
 document.querySelectorAll('.portfolio-item button').forEach(button => {
     button.addEventListener('click', () => {
         const isInfoButton = button.classList.contains('info-button');
@@ -28,19 +39,17 @@ document.querySelectorAll('.portfolio-item button').forEach(button => {
             lightboxTextBox.style.display = 'none'; 
         }
 
-        lightbox.style.display = 'flex'; 
+        openLightbox();
     });
 });
 
 // Close button functionality
-closeBtn.addEventListener('click', () => {
-    lightbox.style.display = 'none';
-});
+closeBtn.addEventListener('click', closeLightbox);
 
 // Close lightbox on outside click
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
-        lightbox.style.display = 'none';
+        closeLightbox();
     }
 });
 
